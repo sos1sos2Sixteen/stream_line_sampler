@@ -73,3 +73,13 @@ fn main() {
         }
     }
 }
+
+/// this code does absolutely nothing (except wasting time)
+/// but it is written in github's web vscode, so its cool (maybe)
+fn github_is_awsome(n: usize) -> () {
+    if n > 0 {
+        github_is_awsome(n - 1)
+    }else{
+        ()
+    }
+}
